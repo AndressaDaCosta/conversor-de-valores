@@ -1,0 +1,183 @@
+* {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  /*   background-image: url("https://is1-ssl.mzstatic.com/image/thumb/Purple124/v4/9e/22/a8/9e22a867-aba4-fc78-5120-6c303b7fabe3/source/512x512bb.jpg"); */
+  background-color: #000000;
+  background-size: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 30vh;
+}
+
+.page-title {
+  color: #3f6964;
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+input {
+  height: 27px;
+  border-radius: 6px;
+  text-align-last: center;
+  border-color: #97c0d7;
+}
+
+#res {
+  color: #000;
+  height: 27px;
+  border-radius: 6px;
+  background-color: #fffafa;
+}
+
+#opcoes {
+  height: 25px;
+  margin-top: 35px;
+  border-radius: 6px;
+  text-align-last: center;
+}
+
+.opcoes {
+  border-radius: 6px;
+}
+
+.page-logo {
+  width: 200px;
+  filter: invert(80%);
+  border-radius: 6px;
+  animation: piscar 1s linear infinite alternate;
+}
+
+.button .btn {
+  margin-top: 15px;
+  width: 13.3rem;
+}
+.alura-logo {
+  width: 120px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border-radius: 6px;
+}
+.alura-logo:hover {
+  animation: girar 1s;
+}
+womanCode > img {
+  margin: auto;
+}
+img {
+  max-height: 850px;
+  max-width: 600px;
+  top: 5px;
+  animation: button 3s ease-in infinite;
+  animation-direction: alternate;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+@keyframes expandir {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes girar {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes piscar {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*  
+body {
+  font-family: "Roboto Mono", monospace;
+  min-height: 400px;
+  background-color: #7b68ee;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
+
+.page-logo {
+  style do imarsao dev
+  width: 200px;
+}
+
+.alura-logo {
+  /*stylo do alura canto superior direito
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.seletor {
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+.nota {
+  position: absolute;
+  display: none;
+  top: 55%;
+  left: 33%;
+}
+.nota li {
+  list-style-type: none;
+}
+.temperatura {
+  position: absolute;
+  display: none;
+  top: 55%;
+  left: 33%;
+}
+
+
+  background-image: url('https://caelum-online-public.s3.amazonaws.com/imersao-dev-3/bg.png');
+
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+ */
