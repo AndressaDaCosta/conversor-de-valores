@@ -1,4 +1,4 @@
-# 🌡️ conversor de valores
+# 🌡️ Conversor de valores
 
 
 Projeto desenvolvido durante a #imersãoDEV da Alura!  
